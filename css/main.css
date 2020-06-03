@@ -1,4 +1,6 @@
 @import "bootstrap.min.css";
+@import "background.css";
+@import "text-style.css";
 
 @media (min-width: 576px){ 
 }

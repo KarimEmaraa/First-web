@@ -1,0 +1,15 @@
+#foot div{
+    background-color: lightblue;
+    padding: 5px;
+}
+
+#nav div{
+    background-color: lightblue;
+    padding: 5px;
+    
+}
+
+.about-author {
+    background-color: lightgrey;
+    padding: 5px;
+}
