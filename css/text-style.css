@@ -1,4 +1,24 @@
-#headings h1 {
+#headings {
     color:#0993f3;
+
     font-family: 'Segoe UI';
+
+    padding: 15px;
+}
+#blogtitle {
+    color:#8ac7f1;
+
+    font-family: 'Segoe UI';
+
+    padding: 15px;
+}
+#art {
+    font-family: 'Segoe UI';
+
+    color: rgb(85, 77, 77);
+}
+#quote {
+    font-style: italic;
+
+    background-color: rgb(245, 239, 239);
 }

@@ -1,15 +1,23 @@
-#foot div{
+#foot {
     background-color: lightblue;
+
     padding: 5px;
 }
+#nav {
+    background-color: rgb(167, 181, 185);
 
-#nav div{
-    background-color: lightblue;
     padding: 5px;
-    
 }
-
 .about-author {
     background-color: lightgrey;
+
     padding: 5px;
+
+    border-radius: 10px;
+}
+#art, #auth {
+    padding: 15px;
+}
+#share-container {
+    padding: 7px;
 }

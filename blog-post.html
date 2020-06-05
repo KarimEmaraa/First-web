@@ -29,7 +29,6 @@
                     <li class="nav-item">
                         <form class="form-inline">
                             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
                         </form>
                     </li>
                   </ul>
@@ -39,13 +38,13 @@
 
         <main>
             <div class="container-fluid">
-                <div class="row justify-content-center m-2" id="headings">
-                    <h1>
+                <div class="row justify-content-center" id="blogtitle">
+                    <h2>
                         Favorite 4 Hostels I visited
-                    </h1>
+                    </h2>
                 </div>
-                <div class="row">
-                    <div class="side-container m-2">
+                <div class="row justify-content-center">
+                    <div class="side-container m-2 ">
                         <aside>
                             <div class="about-author">
                                 <div class="author-avatar">
@@ -64,15 +63,29 @@
                                     </address>
                                 </div>
                             </div>
-                            <div class="share-container">
-        
+                            <div id="share-container" class="row">
+                                <div>
+                                    <a href="#">
+                                        <img src="images/facebook.svg" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        <img src="images/insta.svg" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        <img src="images/linkedin.svg" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+                                    </a>
+                                </div>
                             </div>
                         </aside>
                     </div>
-                    <div class="m-2 col-9">
-                        <article>
-                            <div class="date-and-author">
-                                <div class="">
+                    <div class="col-9">
+                        <article id="art">
+                            <div class="date-and-author" id="auth">
+                                <div class="date-time">
                                     <time datetime="2020-6-2"><em>2 June 2020</em> </time>
                                 </div>
                                 <div class="">
@@ -80,23 +93,23 @@
                                 </div>
                             </div>
                         
-                            <div class="intro-container">
+                            <section class="intro-container">
                                 <p>
                                     Lorem ipsum dolor sit amet, <strong>Orci porta non pulvinar</strong> adipiscing elit, sed do eiusmod tempor 
                                     incididunt ut labore et dolore magna aliqua. Integer vitae justo eget magna fermentum 
                                     iaculis eu non. Dictum non <em>ornare aenean euismod</em> a erat nam at lectus urna duis.
                                     Et molestie ac feugiat sed lectus vestibulum mattis. Imperdiet massa tincidunt nunc pulvinar sapien. 
-                                    Nibh tortor id aliquet lectus proin nibh. Volutpat ac tincidunt vitae semper quis lectus. 
+                                    Nibh tortor id aliquet <br><q id="quote">Dictum non consectetur a erat nam at lectus urna duis.</q><bectus proin nibh. Volutpat ac tincidunt vitae semper quis lectus. 
                                     Tincidunt vitae semper quis lectus nulla. Ut pharetra sit amet aliquam <u>id diam.</u>
                                 </p>
-                            </div>
+                            </section>
                             <section class="first section">
                                 <h3>
                                     Valentine Hostle
                                 </h3>
                                 <p>
                                     <figure>
-                                        <img srcset="images/hostel1-380.jpg 480w,
+                                        <img class="img" srcset="images/hostel1-th.jpg 480w,
                                                     images/hostel1.jpg 800w" 
                                         sizes="(max-width: 600px) 480px, 800px"
                                         src="images/hostel1.jpg" alt="Image of hostel beds">
@@ -118,16 +131,16 @@
                                 </h3>
                                 <p>
                                     <figure>
-                                        <img srcset="images/hostel2-380.jpg 480w,
+                                        <img class="img" srcset="images/hostel2-th.jpg 480w,
                                                     images/hostel2.jpg 800w" 
                                         sizes="(max-width: 600px) 480px, 800px"
-                                        src="images/hostel1.jpg" alt="Image of hostel beds">
+                                        src="images/hostel2.jpg" alt="Image of hostel beds">
                                             <figcaption>LCapsule Hostel, Guatemala.</figcaption>
                                     </figure>
                                     Faucibus pulvinar elementum integer enim. Orci porta non pulvinar neque.
                                     Ultrices neque ornare aenean euismod elementum nisi quis eleifend quam. 
                                     Placerat vestibulum lectus mauris ultrices eros in cursus. 
-                                    Malesuada bibendum arcu vitae elementum curabitur vitae nunc sed velit. 
+                                    Malesuada <u>bibendum arcu vitae</u> elementum curabitur vitae nunc sed velit. 
                                     Tellus integer feugiat scelerisque varius. Mollis nunc sed id semper risus in hendrerit.
                                     Et molestie ac feugiat sed lectus vestibulum mattis. Imperdiet massa tincidunt nunc pulvinar sapien. 
                                     Nibh tortor id aliquet lectus proin nibh. Volutpat ac tincidunt vitae semper quis lectus. 
@@ -140,10 +153,10 @@
                                 </h3>
                                 <p>
                                     <figure>
-                                        <img srcset="images/hostel3-380.jpg 480w,
+                                        <img class="img" srcset="images/hostel3-th.jpg 480w,
                                                     images/hostel3.jpg 800w" 
                                         sizes="(max-width: 600px) 480px, 800px"
-                                        src="images/hostel1.jpg" alt="Image of hostel beds">
+                                        src="images/hostel3.jpg" alt="Image of hostel beds">
                                             <figcaption>Milhouse Hostel Avenue, Buenos Aires, Argentina</figcaption>
                                     </figure>
                                     Et molestie ac feugiat sed lectus vestibulum mattis. Imperdiet massa tincidunt nunc pulvinar sapien. 
@@ -151,17 +164,14 @@
                                     Tincidunt vitae semper quis lectus nulla. Ut pharetra sit amet aliquam id diam
                                     Faucibus pulvinar elementum integer enim. Orci porta non pulvinar neque.
                                     Ultrices neque ornare aenean euismod elementum nisi quis eleifend quam. 
-                                    Placerat vestibulum lectus mauris ultrices eros in cursus.
+                                    Placerat vestibulum <u>lectus proin nibh.</u>lectus mauris ultrices eros in cursus.
                                     Malesuada bibendum arcu vitae elementum curabitur vitae nunc sed velit. 
                                     Tellus integer feugiat scelerisque varius. Mollis nunc sed id semper risus in hendrerit <a href="">here</a>.
                                 </p>
                             </section>
                         </article>
                     </div>
-                    
-                </div>
-                
-                    
+                </div>         
             </div>
         </main>
 
