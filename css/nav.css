@@ -1,0 +1,15 @@
+.nav-bar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: cadetblue;
+    align-items: center;
+    border-radius: 10px;
+    list-style-type: none;
+}
+
+.nav-item {
+    margin: 1.1rem;
+}
+

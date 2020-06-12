@@ -1,29 +1,47 @@
-@import "bootstrap.min.css";
-@import "background.css";
 @import "text-style.css";
+@import "cards.css";
+@import "nav.css";
+@import "footer.css";
+@import "blogpost.css";
 
 
-.img {
-    border: solid;
-    border-width: 2px;
+button {
+    background-color: cadetblue; /* Green */
+    border: 1px solid wheat;
+    border-radius: 15px;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
-@media (min-width: 576px){    
-    .img {
-        border-color: black;
+
+button:hover {
+    background-color: lightblue; 
+}
+
+input[type=email], input[type=search]
+{
+    width: 90%;
+    border-radius: 5px;
+}
+
+@media (min-width: 400px){    
+    #nav-icon {
+        flex-basis: 100%;
+        justify-self: center;
     }
 }
+
 @media (min-width: 768px) { 
-    .img {
-        border-color: gray;
+    #nav-icon {
+        flex-basis: 50%;
     }
  }
-@media (min-width: 992px) { 
-    .img {
-        border-color: lightblue;
-    }
- }
-@media (min-width: 1200px) { 
-    .img {
-        border-color: darkblue;
+
+@media (min-width: 1000px) { 
+    #nav-icon {
+        flex-basis: 70%;
     }
  }

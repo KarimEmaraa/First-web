@@ -1,24 +1,48 @@
-#headings {
-    color:#0993f3;
+h1, h2 , h3, p {
+   font-family: sans-serif; 
+}
 
-    font-family: 'Segoe UI';
+h1 {
+    font-size: 2em; 
+    color: lightblue;
+}
 
+h2 {
+    font-size: 0.9em;
+}
+
+h3 {
+    background-color: rgb(130, 162, 163);
     padding: 15px;
+    border-radius: 10px;
+    color: white;
 }
-#blogtitle {
-    color:#8ac7f1;
 
-    font-family: 'Segoe UI';
-
-    padding: 15px;
+p {
+    font-size: 1.1;
 }
-#art {
-    font-family: 'Segoe UI';
 
-    color: rgb(85, 77, 77);
+.main-header {
+    display: flex;
+    justify-content: center;
 }
+
+.nav-title {
+    display: inline;
+}
+
+a:visited, a:active, a:focus, a {
+    text-decoration: none; 
+    outline: none;
+    color: white;
+ }
+
+.card-title {
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
 #quote {
-    font-style: italic;
-
-    background-color: rgb(245, 239, 239);
+    color: grey;
 }

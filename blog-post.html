@@ -7,216 +7,195 @@
         <link rel="stylesheet" href="css/main.css">
     </head>
     <body>
-        <div class="container-fluid">
-            <nav class="navbar navbar-expand-lg navbar-light" id="nav">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="index.html">
-                        <img src="images/area.svg" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
-                        My Travel Blog
-                    </a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
-                    </button>
-                </div>
-                <div class="col-lg-5" id="navbarNav">
-                  <ul class="navbar-nav">
-                    <li class="nav-item active">
-                      <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item active">
-                      <a class="nav-link" href="#foot">Contact Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <form class="form-inline">
-                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                        </form>
-                    </li>
-                  </ul>
-                </div>
-              </nav>
-        </div>
+        <nav>
+            <ul class="nav-bar" >
+                <li id="nav-icon">
+                  <a href="index.html">
+                      <img src="images/area.svg" width="30" height="30" alt="website icon" >
+                      <h1 class="nav-title">
+                          My Travel Blog
+                      </h1>
+                  </a>
+                </li>
+                <li class="nav-item ">
+                    <a href="index.html"><p>Home</p></a>
+                 </li>
+                <li class="nav-item ">
+                    <a href="#footer"><p>Contact Us</p></a>
+                </li>
+                <li class="nav-item">
+                    <form >
+                      <input type="search" placeholder="Search" aria-label="Search">
+                    </form>
+                </li>
+            </ul>
+        </nav>          
 
         <main>
-            <div class="container-fluid">
-                <div class="row justify-content-center" id="blogtitle">
-                    <h2>
-                        Favorite 4 Hostels I visited
-                    </h2>
-                </div>
-                <div class="row justify-content-center">
-                    <div class="side-container m-2 ">
-                        <aside>
-                            <div class="about-author">
-                                <div class="author-avatar">
-                                    <img src="images/user.svg" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
-                                </div>
-                                <div class="author-info">
-                                    John Mads <br>
-                                    <em>Sr. Software Engineer at Vika Company</em>
-                                </div>
-                                <div class="author-bio">
-                                    bibendum arcu vitae elementum.
-                                </div>
-                                <div class="author-contact">
-                                    <address>
-                                        <a href="mailto:John-mads@example.com?subject=Question%20about%20">John-mads@example.com</a>
-                                    </address>
-                                </div>
-                            </div>
-                            <div id="share-container" class="row">
-                                <div>
-                                    <a href="#">
-                                        <img src="images/facebook.svg" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
-                                    </a>
-                                </div>
-                                <div>
-                                    <a href="#">
-                                        <img src="images/insta.svg" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
-                                    </a>
-                                </div>
-                                <div>
-                                    <a href="#">
-                                        <img src="images/linkedin.svg" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
-                                    </a>
-                                </div>
-                            </div>
-                        </aside>
+            <div class="main-header">
+                <header>
+                    <h1>
+                        Favorite 4 Hostels i visited
+                    </h1>
+                </header>
+            </div>
+            <div id="container">
+                <aside>
+                    <div class="about-author">
+                        <div class="author-avatar">
+                            <img src="images/user.svg" width="30" height="30" alt="author avatar">
+                        </div>
+                        <div class="author-info">
+                            John Mads <br>
+                            <em>Sr. Software Engineer at Vika Company</em>
+                        </div>
+                        <div class="author-bio">
+                            bibendum arcu vitae elementum.
+                        </div>
+                        <div class="author-contact">
+                            <address>
+                                <a href="mailto:John-mads@example.com?subject=Question%20about%20">John-mads@example.com</a>
+                            </address>
+                        </div>
                     </div>
-                    <div class="col-9">
-                        <article id="art">
-                            <div class="date-and-author" id="auth">
-                                <div class="date-time">
-                                    <time datetime="2020-6-2"><em>2 June 2020</em> </time>
-                                </div>
-                                <div class="">
-                                   <em>John Mads</em> 
-                                </div>
-                            </div>
-                        
-                            <section class="intro-container">
-                                <p>
-                                    Lorem ipsum dolor sit amet, <strong>Orci porta non pulvinar</strong> adipiscing elit, sed do eiusmod tempor 
-                                    incididunt ut labore et dolore magna aliqua. Integer vitae justo eget magna fermentum 
-                                    iaculis eu non. Dictum non <em>ornare aenean euismod</em> a erat nam at lectus urna duis.
-                                    Et molestie ac feugiat sed lectus vestibulum mattis. Imperdiet massa tincidunt nunc pulvinar sapien. 
-                                    Nibh tortor id aliquet <br><q id="quote">Dictum non consectetur a erat nam at lectus urna duis.</q><bectus proin nibh. Volutpat ac tincidunt vitae semper quis lectus. 
-                                    Tincidunt vitae semper quis lectus nulla. Ut pharetra sit amet aliquam <u>id diam.</u>
-                                </p>
-                            </section>
-                            <section class="first section">
-                                <h3>
-                                    Valentine Hostle
-                                </h3>
-                                <p>
-                                    <figure>
-                                        <img class="img" srcset="images/hostel1-th.jpg 480w,
-                                                    images/hostel1.jpg 800w" 
-                                        sizes="(max-width: 600px) 480px, 800px"
-                                        src="images/hostel1.jpg" alt="Image of hostel beds">
-                                            <figcaption>Luck-Yimm Hostel in Bangkok.</figcaption>
-                                    </figure>
-                                    <strong>Elementum nisi quis</strong> ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-                                    incididunt ut labore et dolore magna aliqua. Integer vitae justo eget magna fermentum 
-                                    iaculis eu non. Dictum non consectetur a erat nam at lectus urna duis.
-                                    Faucibus pulvinar elementum integer enim. Orci porta non pulvinar neque.
-                                    Ultrices neque ornare aenean <em>ornare euismod</em>euismod elementum nisi quis eleifend quam. 
-                                    Placerat vestibulum lectus mauris ultrices eros in cursus. 
-                                    Malesuada bibendum arcu vitae elementum curabitur vitae nunc sed velit. 
-                                    Tellus integer feugiat scelerisque varius. Mollis nunc sed id semper risus in hendrerit <a href="">here</a>.
-                                </p>
-                            </section>
-                            <section class="second section">
-                                <h3>
-                                    Mars Hostle
-                                </h3>
-                                <p>
-                                    <figure>
-                                        <img class="img" srcset="images/hostel2-th.jpg 480w,
-                                                    images/hostel2.jpg 800w" 
-                                        sizes="(max-width: 600px) 480px, 800px"
-                                        src="images/hostel2.jpg" alt="Image of hostel beds">
-                                            <figcaption>LCapsule Hostel, Guatemala.</figcaption>
-                                    </figure>
-                                    Faucibus pulvinar elementum integer enim. Orci porta non pulvinar neque.
-                                    Ultrices neque ornare aenean euismod elementum nisi quis eleifend quam. 
-                                    Placerat vestibulum lectus mauris ultrices eros in cursus. 
-                                    Malesuada <u>bibendum arcu vitae</u> elementum curabitur vitae nunc sed velit. 
-                                    Tellus integer feugiat scelerisque varius. Mollis nunc sed id semper risus in hendrerit.
-                                    Et molestie ac feugiat sed lectus vestibulum mattis. Imperdiet massa tincidunt nunc pulvinar sapien. 
-                                    Nibh tortor id aliquet lectus proin nibh. Volutpat ac tincidunt vitae semper quis lectus. 
-                                    Tincidunt vitae semper quis lectus nulla. Ut pharetra sit amet aliquam id diam <a href="">here</a>.
-                                </p>
-                            </section>
-                            <section class="third section">
-                                <h3>
-                                    Jungle Hostle
-                                </h3>
-                                <p>
-                                    <figure>
-                                        <img class="img" srcset="images/hostel3-th.jpg 480w,
-                                                    images/hostel3.jpg 800w" 
-                                        sizes="(max-width: 600px) 480px, 800px"
-                                        src="images/hostel3.jpg" alt="Image of hostel beds">
-                                            <figcaption>Milhouse Hostel Avenue, Buenos Aires, Argentina</figcaption>
-                                    </figure>
-                                    Et molestie ac feugiat sed lectus vestibulum mattis. Imperdiet massa tincidunt nunc pulvinar sapien. 
-                                    Nibh tortor id aliquet lectus proin nibh. Volutpat ac tincidunt vitae semper quis lectus. 
-                                    Tincidunt vitae semper quis lectus nulla. Ut pharetra sit amet aliquam id diam
-                                    Faucibus pulvinar elementum integer enim. Orci porta non pulvinar neque.
-                                    Ultrices neque ornare aenean euismod elementum nisi quis eleifend quam. 
-                                    Placerat vestibulum <u>lectus proin nibh.</u>lectus mauris ultrices eros in cursus.
-                                    Malesuada bibendum arcu vitae elementum curabitur vitae nunc sed velit. 
-                                    Tellus integer feugiat scelerisque varius. Mollis nunc sed id semper risus in hendrerit <a href="">here</a>.
-                                </p>
-                            </section>
-                        </article>
+                    <div id="share-container">
+                            <a href="#">
+                                <img src="images/facebook.svg" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+                            </a>
+                            <a href="#">
+                                <img src="images/insta.svg" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+                            </a>
+                            <a href="#">
+                                <img src="images/linkedin.svg" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+                            </a>
                     </div>
-                </div>         
+                </aside>
+                <article id="art">
+                    <div id="auth">
+                        <h2><em>John Mads</em></h2>
+                        <time datetime="2020-6-2"><em>2 June 2020</em> </time>
+                                 
+                    </div>
+                    <section class="intro-container">
+                        <p>
+                            Lorem ipsum dolor sit amet, <strong>Orci porta non pulvinar</strong> adipiscing elit, sed do eiusmod tempor 
+                            incididunt ut labore et dolore magna aliqua. Integer vitae justo eget magna fermentum 
+                            iaculis eu non. Dictum non <em>ornare aenean euismod</em> a erat nam at lectus urna duis.
+                            Et molestie ac feugiat sed lectus vestibulum mattis. Imperdiet massa tincidunt nunc pulvinar sapien. 
+                            Nibh tortor id aliquet <br><q id="quote">Dictum non consectetur a erat nam at lectus urna duis.</q>bectus proin nibh. Volutpat ac tincidunt vitae semper quis lectus. 
+                            Tincidunt vitae semper quis lectus nulla. Ut pharetra sit amet aliquam <u>id diam.</u>
+                        </p>
+                    </section>
+                    <section class="first section">
+                        <h3>
+                            Valentine Hostle
+                        </h3>
+                        <p>
+                            <figure>
+                                <img class="img" srcset="images/hostel1-th.jpg 480w,
+                                            images/hostel1.jpg 800w" 
+                                sizes="(max-width: 600px) 480px, 800px"
+                                src="images/hostel1.jpg" alt="Image of hostel beds">
+                                    <figcaption>Luck-Yimm Hostel in Bangkok.</figcaption>
+                            </figure>
+                            <strong>Elementum nisi quis</strong> ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                            incididunt ut labore et dolore magna aliqua. Integer vitae justo eget magna fermentum 
+                            iaculis eu non. Dictum non consectetur a erat nam at lectus urna duis.
+                            Faucibus pulvinar elementum integer enim. Orci porta non pulvinar neque.
+                            Ultrices neque ornare aenean <em>ornare euismod</em> euismod elementum nisi quis eleifend quam. 
+                            Placerat vestibulum lectus mauris ultrices eros in cursus. 
+                            Malesuada bibendum arcu vitae elementum curabitur vitae nunc sed velit. 
+                            Tellus integer feugiat scelerisque varius. Mollis nunc sed id semper risus in hendrerit <a href="">here</a>.
+                        </p>
+                    </section>
+                    <section class="second-section">
+                        <h3>
+                            Mars Hostle
+                        </h3>
+                        <p>
+                            <figure>
+                                <img class="img" srcset="images/hostel2-th.jpg 480w,
+                                            images/hostel2.jpg 800w" 
+                                sizes="(max-width: 600px) 480px, 800px"
+                                src="images/hostel2.jpg" alt="Image of hostel beds">
+                                    <figcaption>LCapsule Hostel, Guatemala.</figcaption>
+                            </figure>
+                            Faucibus pulvinar elementum integer enim. Orci porta non pulvinar neque.
+                            Ultrices neque ornare aenean euismod elementum nisi quis eleifend quam. 
+                            Placerat vestibulum lectus mauris ultrices eros in cursus. 
+                            Malesuada <u>bibendum arcu vitae</u> elementum curabitur vitae nunc sed velit. 
+                            Tellus integer feugiat scelerisque varius. Mollis nunc sed id semper risus in hendrerit.
+                            Et molestie ac feugiat sed lectus vestibulum mattis. Imperdiet massa tincidunt nunc pulvinar sapien. 
+                            Nibh tortor id aliquet lectus proin nibh. Volutpat ac tincidunt vitae semper quis lectus. 
+                            Tincidunt vitae semper quis lectus nulla. Ut pharetra sit amet aliquam id diam <a href="">here</a>.
+                        </p>
+                    </section>
+                    <section class="third-section">
+                        <h3>
+                            Jungle Hostle
+                        </h3>
+                        <p>
+                            <figure>
+                                <img class="img" srcset="images/hostel3-th.jpg 480w,
+                                            images/hostel3.jpg 800w" 
+                                sizes="(max-width: 600px) 480px, 800px"
+                                src="images/hostel3.jpg" alt="Image of hostel beds">
+                                    <figcaption>Milhouse Hostel Avenue, Buenos Aires, Argentina</figcaption>
+                            </figure>
+                            Et molestie ac feugiat sed lectus vestibulum mattis. Imperdiet massa tincidunt nunc pulvinar sapien. 
+                            Nibh tortor id aliquet lectus proin nibh. Volutpat ac tincidunt vitae semper quis lectus. 
+                            Tincidunt vitae semper quis lectus nulla. Ut pharetra sit amet aliquam id diam
+                            Faucibus pulvinar elementum integer enim. Orci porta non pulvinar neque.
+                            Ultrices neque ornare aenean euismod elementum nisi quis eleifend quam. 
+                            Placerat vestibulum <u>lectus proin nibh.</u>lectus mauris ultrices eros in cursus.
+                            Malesuada bibendum arcu vitae elementum curabitur vitae nunc sed velit. 
+                            Tellus integer feugiat scelerisque varius. Mollis nunc sed id semper risus in hendrerit <a href="">here</a>.
+                        </p>
+                    </section>
+                </article>                               
             </div>
         </main>
 
-        <footer>
-            <div class="container-fluid" id="foot">
-                <div class="row justify-content-center">
-                    <div class="contact-container col-6" >
+        <footer id="footer">
+            <div class="footer-bar">
+                <div class="contact-container" >
+                    <address>
                         <p>
                             Contact us at:
                         </p>
-                        <address>
-                            <div class="contact-mail">
-                                <a href="mailto:example@example.com?subject=Question%20about%20">example@example.com</a>
-                            </div>
-                            <div class="contact-tel">
-                                <p>(111) 111-1111</p>
-                            </div>
-                            <div class="contact-address">
-                                <p>
-                                    111 foo street <br>
-                                    First District <br>
-                                    New york - USA <br>
-                                </p>
-                            </div>
-                        </address>
-                    </div>
-                    <div class="subscribe-form">
-                        <form>
-                            <div class="form-group">
-                              <label for="exampleInputEmail1">Email address</label>
-                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                            </div>
-                            <div class="form-group">
-                              <label for="exampleInputPassword1">Full Name</label>
-                              <input type="text" class="form-control" id="exampleInputPassword1">
-                            </div>
-                            <button type="submit" class="btn btn-primary">Subsribe</button>
-                          </form>
-                    </div>
+                        <div class="contact-mail">
+                            <a href="mailto:example@example.com?subject=Question%20about%20">example@example.com</a>
+                        </div>
+                        <div class="contact-tel">
+                            <p>(111) 111-1111</p>
+                        </div>
+                        <div class="contact-address">
+                            <p>
+                                111 foo street <br>
+                                First District <br>
+                                New york - USA <br>
+                            </p>
+                        </div>
+                    </address>
                 </div>
-                <div class="copyrights row justify-content-center mt-2">
-                    © 2020 Karim Concepts Company. 
+                <div class="subscribe-form">
+                    <form>
+                        <div class="form-group">
+                          <label for="exampleInputEmail1"><p>Email address</p></label>
+                          <input type="email">
+                          <p id="email-caption">
+                            We'll never share your email with anyone else
+                          </p>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Subsribe</button>
+                    </form>
+                </div>
+                <div class="copyrights">
+                    <p>
+                        © 2020 Karim Concepts Company. 
+                    </p>
                 </div>
             </div>
-        </footer>
+        </footer> 
     </body>
 </html>

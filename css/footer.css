@@ -1,0 +1,26 @@
+.footer-bar {
+    display: grid;
+    grid-template-columns: 3fr 1fr 2fr;
+    background-color: cadetblue;
+    border-radius: 15px;
+    padding-top: 10px;
+    padding-left: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-bar p {
+    color: white;
+}
+
+.contact-container {
+    grid-column: 1 ;
+}
+
+.subscribe-form {
+    grid-column: 3;
+}
+
+#email-caption {
+    font-size: 12px;
+}
